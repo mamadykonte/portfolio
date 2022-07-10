@@ -1,0 +1,29 @@
+{
+  "navbar": {
+    "home": "Accueil",
+    "about": "Profile",
+    "projects": "projets",
+    "contact": "contact"
+  },
+  "welcome": {
+    "text": "Développeur (Front || Back)-End -*- Intégrateur -*-",
+    "link": "Voir les projets",
+    "dev": "Développeur"
+  },
+  "about": {
+    "title": "Profile",
+    "who": {
+      "title": "Qui suis-je",
+      "first": "Je suis Mamady KONTE, j'ai 22 ans, développeur en formation à la Web@cademie by EPITECH. Une formation de 2 ans où on apprend d’une manière peu conventionnelle !  EPITECH propose la pédagogie par projets : pas de cours, pas d'apprentissage par cœur. Des projets à réaliser à partir de spécifications qui nous sont données.",
+      "second": "La deuxième année est consacrée à tester, éprouver et améliorer nos connaissances en entreprise : je suis à la recherche d'un contrat d'alternance de 14 mois à partir de septembre 2022."
+    },
+    "formation": {
+      "title": "Formation",
+      "first": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis eligendi perferendis soluta facilis adipisci labore eius vel magnam eum, autem, quasi ipsa optio. Perspiciatis velit quod, maiores eius recusandae beatae delectus ullam nesciunt nobis porro, autem, molestiae enim at minima exercitationem?"
+    }
+  },
+  "project": {
+    "title": "Mes projets",
+    "all": "Tous"
+  }
+}
