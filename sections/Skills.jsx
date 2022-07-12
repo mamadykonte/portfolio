@@ -1,5 +1,5 @@
 import React from "react";
-import SkillItem from "../components/skillItem";
+import SkillsItem from "../components/SkillsItem";
 import {
   FaReact,
   FaNode,
@@ -15,9 +15,6 @@ import {
 import { DiJavascript1 } from "react-icons/di";
 import { SiExpress, SiTailwindcss, SiMaterialui } from "react-icons/si";
 import { useTranslation } from "react-i18next";
-
-
-
 
 const Skills = () => {
     const { t } = useTranslation("en", { useSuspense: false });
@@ -86,7 +83,7 @@ const Skills = () => {
       <h2 className="text-center">{t("skills.title")}</h2>
       <div className="max-w-screen-xl m-auto my-4 flex flex-wrap justify-center items-center content-center gap-8">
         {skill.map(({ name, icon }, idx) => (
-          <SkillItem key={idx} name={name} icon={icon} />
+          <SkillsItem key={idx} name={name} icon={icon} />
         ))}
       </div>
     </section>

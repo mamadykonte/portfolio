@@ -1,6 +1,6 @@
 import React from "react";
 
-const SkillItem = ({ name, icon }) => {
+const SkillsItem = ({ name, icon }) => {
   return (
     <div className="flex flex-col">
       {icon}
@@ -9,4 +9,4 @@ const SkillItem = ({ name, icon }) => {
   );
 };
 
-export default SkillItem;
+export default SkillsItem;
